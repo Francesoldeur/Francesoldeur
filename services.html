@@ -1,44 +1,92 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Francesoldeur propose le rachat de lots de vêtements, chaussures et accessoires en France. Déstockage rapide pour magasins en liquidation ou surplus.">
-    <meta name="keywords" content="déstockage vêtements France, rachat lots chaussures, soldeur Lyon, liquidation stock, rachat accessoires">
-    <title>Services - Rachat de Lots Vêtements et Chaussures | Francesoldeur</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rachat de Lot - Services</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Francesoldeur</div>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="apropos.html">À Propos</a></li>
-                <li><a href="contact.html">Contact</a></li>
+  <!-- Menu -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand text-primary display-4" href="index.html">Rachat de Lot</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav-dropdown ms-auto">
+          <li class="nav-item"><a class="nav-link display-4" href="index.html">Accueil</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-item display-4" href="#">Services</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item display-7" href="services.html">Nos Services</a></li>
+              <li><a class="dropdown-item display-7" href="#process">Processus</a></li>
             </ul>
-        </nav>
-    </header>
+          </li>
+          <li class="nav-item"><a class="nav-link display-4" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <main>
-        <section class="services">
-            <h1>Nos Services de Rachat de Lots</h1>
-            <p>Francesoldeur, soldeur professionnel basé à Lyon, rachète vos stocks de vêtements, chaussures et accessoires partout en France. Nous intervenons pour :</p>
-            <ul>
-                <li>Liquidation de magasins en fermeture.</li>
-                <li>Déstockage de surplus ou invendus.</li>
-                <li>Rachat de fins de séries ou surproductions.</li>
-                <li>Gestion de stocks de vêtements, chaussures, maroquinerie et accessoires.</li>
-            </ul>
-            <p>Processus simple : estimation gratuite, rachat rapide, paiement sécurisé.</p>
-            <a href="contact.html" class="cta-button">Contactez-nous pour une estimation</a>
-        </section>
-    </main>
+  <!-- Nos services -->
+  <section class="container mt-4 mb-4">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <h2 class="mbr-section-title display-2 align-center">Nos Services</h2>
+        <p class="mbr-text display-7 align-center">Nous rachetons tous types de lots, y compris :</p>
+        <ul class="mbr-text display-7">
+          <li>Stocks invendus (vêtements, électronique, etc.).</li>
+          <li>Équipements professionnels d’occasion.</li>
+          <li>Lots de marchandises en liquidation.</li>
+          <li>Matériel de construction ou industriel.</li>
+        </ul>
+        <div class="mbr-section-btn align-center">
+          <a class="btn btn-primary btn-lg" href="#contact">Obtenir une estimation</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 Francesoldeur - Soldeur à Lyon, rachat de lots en France. Tous droits réservés.</p>
-        <p><a href="contact.html">Contactez-nous</a> | Lyon, France</p>
-    </footer>
+  <!-- Processus -->
+  <section id="process" class="container mb-4">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+        <h2 class="mbr-section-title display-2 align-center">Notre Processus</h2>
+        <div class="media-container-row">
+          <div class="media-content">
+            <p class="mbr-text display-7">1. <strong>Contact</strong> : Envoyez-nous une description de votre lot.</p>
+            <p class="mbr-text display-7">2. <strong>Évaluation</strong> : Nous analysons votre lot et proposons une offre.</p>
+            <p class="mbr-text display-7">3. <strong>Rachat</strong> : Paiement rapide après accord.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carrousel -->
+  <section class="container mb-4">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/lot1.jpg" class="d-block w-100" alt="Lot de marchandises">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/lot2.jpg" class="d-block w-100" alt="Équipements">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
