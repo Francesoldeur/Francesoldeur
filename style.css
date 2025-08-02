@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #e0f2e9;
+    background-color: #ffffff; /* Changé de #e0f2e9 (vert clair) à #ffffff (blanc) */
 }
 
 header {
@@ -55,7 +55,7 @@ header p {
 }
 
 nav {
-    background: #ffff00; /* Changé de vert (#2e7d32) à jaune (#ffff00) */
+    background: #ffff00; /* Fond jaune pour la navigation */
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -73,7 +73,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000; /* Changé de blanc (#ffffff) à noir (#000000) */
+    color: #000000; /* Texte noir pour les liens de navigation */
     text-decoration: none;
     font-size: 1.1rem;
 }
@@ -88,13 +88,13 @@ section {
 }
 
 #accueil, #services, #a-propos, #contact {
-    background: #e0f2e9; /* Uniformisé */
+    background: #ffffff; /* Changé de #e0f2e9 à #ffffff pour uniformité avec le body */
 }
 
 h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #000000; /* Changé de vert (#2e7d32) à noir (#000000) */
+    color: #000000; /* Titres en noir */
 }
 
 .services-grid {
@@ -106,10 +106,10 @@ h2 {
 }
 
 .service-card {
-    background: #e0f2e9;
+    background: #ffffff; /* Changé de #e0f2e9 à #ffffff pour uniformité */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,-beautify 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .service-card h3 {
@@ -146,7 +146,7 @@ h2 {
 }
 
 .intro-section {
-    background: #e0f2e9;
+    background: #ffffff; /* Changé de #e0f2e9 à #ffffff pour uniformité */
     padding: 50px 20px;
     text-align: center;
 }
