@@ -1,138 +1,116 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rachat de Lot - Accueil</title>
-  <link rel="stylesheet" href="style/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; require-trusted-types-for 'script';">
+    <title>Rachat de Lots à Lyon - Francesoldeur</title>
+    <meta name="description" content="Basé à Lyon, Francesoldeur rachète vos lots de marchandises, liquidations de magasins (vêtements, chaussures, sous-vêtements) partout en France. Estimation gratuite !">
+    <meta name="keywords" content="rachat de lots Lyon, liquidation de magasins France, déstockage vêtements, chaussures, sous-vêtements, Paris, Marseille, Toulouse, Nice, Bordeaux, Francesoldeur">
+    <link rel="stylesheet" href="style.css?v=202508021200">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Francesoldeur",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "69000 Lyon",
+            "addressLocality": "Lyon",
+            "addressRegion": "Auvergne-Rhône-Alpes",
+            "postalCode": "69000",
+            "addressCountry": "FR"
+        },
+        "telephone": "+33661896402",
+        "email": "francesoldeur@gmail.com",
+        "url": "https://www.francesoldeur.fr",
+        "description": "Services professionnels de rachat de lots et liquidations de magasins (vêtements, chaussures, sous-vêtements) à Lyon et partout en France.",
+        "openingHours": "Mo-Sa 08:00-18:00",
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "45.7640",
+            "longitude": "4.8357"
+        },
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "Lyon"
+            },
+            {
+                "@type": "City",
+                "name": "Paris"
+            },
+            {
+                "@type": "City",
+                "name": "Marseille"
+            },
+            {
+                "@type": "City",
+                "name": "Toulouse"
+            },
+            {
+                "@type": "City",
+                "name": "Nice"
+            },
+            {
+                "@type": "City",
+                "name": "Bordeaux"
+            },
+            {
+                "@type": "Country",
+                "name": "France"
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
-  <!-- Menu -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand text-primary display-4" href="index.html">
-        <img src="image1.jpg" alt="Logo Rachat de Lot" class="navbar-logo">
-        Rachat de Lot
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav nav-dropdown ms-auto">
-          <li class="nav-item"><a class="nav-link display-4" href="index.html">Accueil</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-item display-4" href="services.html">Services</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item display-7" href="services.html">Nos Services</a></li>
-              <li><a class="dropdown-item display-7" href="services.html#process">Processus</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link display-4" href="#contact">Contact</a></li>
+    <header>
+        <h1>Francesoldeur</h1>
+        <p>Votre expert en rachat de lots et liquidations de magasins en France</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Section héroïque -->
-  <section class="mbr-fullscreen align-center" style="background-color: #9fe870;">
-    <div class="mbr-overlay"></div>
-    <div class="container">
-      <h1 class="display-1 mbr-white">Vous avez des lots à vendre ?</h1>
-      <p class="mbr-text display-7 mbr-white">Nous rachetons vos stocks invendus, surplus ou marchandises diverses en France et en Europe.</p>
-      <div class="mbr-section-btn">
-        <a class="btn btn-primary btn-lg" href="#contact">Contactez-nous</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Types de lots -->
-  <section class="container mt-4 mb-4 bg-primary">
-    <div class="row justify-content-center">
-      <div class="col-12">
-        <h2 class="mbr-section-title display-2 align-center mbr-white">Nos Services de Rachat</h2>
-        <img src="image2.jpg" alt="Image décorative services" class="section-deco-img">
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="card-wrap">
-          <h3 class="display-5 text-secondary">Alimentaire</h3>
-          <p class="mbr-text display-7">Conserves, produits secs, bonbons, et plus encore.</p>
-          <a class="btn btn-secondary btn-md" href="services.html">En savoir plus</a>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="card-wrap">
-          <h3 class="display-5 text-warning">Boissons</h3>
-          <p class="mbr-text display-7">Eaux, sodas, vins, et boissons non alcoolisées.</p>
-          <a class="btn btn-warning btn-md" href="services.html">En savoir plus</a>
-        </div>
-      </div>
-      <div class="col-12 col-md-4">
-        <div class="card-wrap">
-          <h3 class="display-5 text-info">Hygiène & Entretien</h3>
-          <p class="mbr-text display-7">Produits de soin, désinfectants, et articles ménagers.</p>
-          <a class="btn btn-info btn-md" href="services.html">En savoir plus</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Formulaire de contact -->
-  <section id="contact" class="container mb-4 bg-secondary">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-6">
-        <h2 class="mbr-section-title display-2 align-center mbr-white">Obtenir une estimation</h2>
-        <img src="image3.jpg" alt="Image décorative contact" class="section-deco-img">
-        <form class="mbr-form">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Nom *" required>
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" placeholder="Email *" required>
-          </div>
-          <div class="form-group">
-            <input type="tel" class="form-control" placeholder="Téléphone">
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" placeholder="Description de votre lot *" rows="5" required></textarea>
-          </div>
-          <div class="mbr-section-btn">
-            <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="container-fluid bg-black">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-4">
-          <h4 class="display-5 mbr-white">Rachat de Lot</h4>
-          <p class="mbr-text display-7 mbr-white">Spécialistes du rachat de stocks invendus et surplus en France.</p>
-        </div>
-        <div class="col-12 col-md-4">
-          <h4 class="display-5 mbr-white">Liens</h4>
-          <ul class="mbr-text display-7 mbr-white">
-            <li><a href="index.html" class="text-white">Accueil</a></li>
-            <li><a href="services.html" class="text-white">Services</a></li>
-            <li><a href="#contact" class="text-white">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-md-4">
-          <h4 class="display-5 mbr-white">Contact</h4>
-          <p class="mbr-text display-7 mbr-white">
-            Tél: 06 12 34 56 78<br>
-            Email: contact@rachatdelot.fr<br>
-            Adresse: 123 Rue du Commerce, 75000 Paris
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </nav>
+    <section id="accueil">
+        <h2>Bienvenue chez Francesoldeur</h2>
+        <p>Basé à Lyon, Francesoldeur est votre partenaire de confiance pour le rachat de lots de marchandises et la liquidation de magasins partout en France. Nous intervenons dans tout le pays, notamment à Paris, Marseille, Toulouse, Nice, Bordeaux et bien d’autres villes, pour racheter vos stocks de vêtements, chaussures, sous-vêtements et autres produits. Avec 9 ans d’expérience, nos experts offrent des solutions rapides et sur mesure pour les commerçants, grossistes et entreprises en liquidation. Demandez une estimation gratuite et découvrez pourquoi nous sommes la référence pour le déstockage en France !</p>
+        <a href="contact.html" class="cta-button">Demander une estimation gratuite</a>
+    </section>
+    <section class="intro-section">
+        <h2>Rachat de lots et liquidations en France</h2>
+        <p><strong>Estimations et déplacements gratuits partout en France</strong></p>
+        <img src="image1.jpg" alt="Rachat de lots de vêtements à Lyon">
+        <p>Rachat de stocks de vêtements, chaussures, sous-vêtements et autres marchandises à Lyon, Paris, Marseille, Toulouse, Nice, Bordeaux et partout en France</p>
+        <p>Votre magasin doit liquider un stock excédentaire ? Vous cherchez un acheteur fiable pour vos vêtements, chaussures ou sous-vêtements invendus ? Besoin d’une solution rapide pour gérer une liquidation judiciaire ou un déstockage urgent ?</p>
+        <p>Basé à Lyon, Francesoldeur propose des services professionnels de rachat de lots pour les commerçants et entreprises partout en France. Nos experts évaluent vos marchandises avec précision et vous offrent des solutions adaptées à vos besoins, que vous soyez à Paris, Marseille, Toulouse, Nice, Bordeaux ou ailleurs. Nous rachetons tous types de lots, des vêtements aux chaussures en passant par les sous-vêtements, pour vous permettre de libérer de l’espace et de valoriser vos stocks.</p>
+        <img src="image2.jpg" alt="Liquidation de stocks de chaussures à Paris">
+        <p>Votre partenaire, compétent et disponible du lundi au samedi, intervient dans toute la France pour racheter vos lots. Que vous soyez un particulier, un commerçant ou une entreprise en liquidation, nous garantissons des prestations rapides et professionnelles.</p>
+        <h2>Nos services de rachat de lots</h2>
+        <p>Avec 9 ans d’expérience, Francesoldeur propose une gamme complète de services pour répondre à vos besoins en déstockage :</p>
+        <ul>
+            <li>Rachat de lots de vêtements</li>
+            <li>Rachat de stocks de chaussures</li>
+            <li>Rachat de sous-vêtements invendus</li>
+            <li>Liquidation de magasins en fermeture</li>
+            <li>Déstockage de marchandises diverses</li>
+            <li>Évaluation rapide et gratuite de vos stocks</li>
+            <li>Gestion de liquidations judiciaires</li>
+        </ul>
+        <p>Équipés pour évaluer tout type de marchandise, nous vous conseillons sur la meilleure stratégie pour valoriser vos stocks, que ce soit à Lyon, Paris, Marseille, Toulouse, Nice, Bordeaux ou ailleurs en France. Nous assurons un service rapide et efficace pour vous permettre de vous concentrer sur votre activité.</p>
+        <img src="image3.jpg" alt="Rachat de lots de sous-vêtements à Marseille">
+        <p>Pour vos besoins en déstockage ou pour plus d’informations, <a href="contact.html">contactez Francesoldeur</a> dès maintenant. Découvrez également des conseils sur la gestion de stocks avec la <a href="https://www.economie.gouv.fr" target="_blank" rel="noopener">Direction Générale des Entreprises</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Francesoldeur. Tous droits réservés.</p>
+        <p>Contact : <a href="mailto:francesoldeur@gmail.com">francesoldeur@gmail.com</a> | <a href="tel:+33661896402">06 61 89 64 02</a></p>
+        <p>Adresse : 69000 Lyon, Auvergne-Rhône-Alpes, France</p>
+    </footer>
 </body>
 </html>
