@@ -53,9 +53,10 @@ section {
   align-items: center;
 }
 .navbar-logo {
-  height: 40px;
-  margin-right: 10px;
-  border-radius: 5px;
+  height: 30px; /* Réduit la taille du logo pour la navbar */
+  width: auto;
+  margin-right: 8px;
+  border-radius: 4px;
 }
 .nav-link {
   color: #232323 !important;
@@ -203,7 +204,7 @@ section {
 }
 .section-deco-img {
   width: 100%;
-  max-width: 300px;
+  max-width: 200px; /* Réduit la taille maximale des images décoratives */
   margin: 1rem auto;
   display: block;
   border-radius: 1rem;
