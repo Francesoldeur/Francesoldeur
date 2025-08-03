@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /index.html
+Allow: /services.html
+Allow: /a-propos.html
+Allow: /contact.html
+Allow: /style.css
+Disallow: /favicon.ico
+Disallow: /header.jpg
+Disallow: /image1.jpg
+Disallow: /image2.jpg
+Disallow: /image3.jpg
+Disallow: /image4.jpg
+Disallow: /image5.jpg
+Disallow: /image6.jpg
+Disallow: /image7.jpg
+Sitemap: https://francesoldeur.github.io/Francesoldeur/sitemap.xml
