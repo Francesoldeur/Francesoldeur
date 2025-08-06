@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://francesoldeur.github.io/Francesoldeur/index.html</loc>
-        <lastmod>2025-08-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
+        <loc>https://francesoldeur.fr/</loc>
     </url>
     <url>
-        <loc>https://francesoldeur.github.io/Francesoldeur/services.html</loc>
-        <lastmod>2025-08-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://francesoldeur.fr/services.html</loc>
     </url>
     <url>
-        <loc>https://francesoldeur.github.io/Francesoldeur/a-propos.html</loc>
-        <lastmod>2025-08-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://francesoldeur.fr/apropos.html</loc>
     </url>
     <url>
-        <loc>https://francesoldeur.github.io/Francesoldeur/contact.html</loc>
-        <lastmod>2025-08-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <loc>https://francesoldeur.fr/contact.html</loc>
     </url>
 </urlset>
